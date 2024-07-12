@@ -2,5 +2,5 @@
 
 docker run --rm -it --name mysql-client \
   --network mysql-network \
-  mysql:5.7 \
+  mysql:8.0
   mysql -hmysql-server -uroot
